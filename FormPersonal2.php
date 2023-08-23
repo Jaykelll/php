@@ -57,39 +57,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 ?>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Formulario de Usuario</title>
-</head>
-<body>
-    <form method="post">
-        <label>Nombres:</label>
-        <input type="text" name="nombres"><br>
-
-        <label>Apellidos:</label>
-        <input type="text" name="apellidos"><br>
-
-        <label>Fecha de Nacimiento:</label>
-        <input type="text" name="fecha_de_nacimiento"><br>
-
-        <label>Documento:</label>
-        <input type="text" name="documento"><br>
-
-        <label>Tipo de Documento:</label>
-        <input type="text" name="tipo_de_documento"><br>
-
-        <label>Teléfono:</label>
-        <input type="text" name="telefono"><br>
-
-        <label>Dirección:</label>
-        <input type="text" name="direccion"><br>
-
-        <label>Ciudad:</label>
-        <input type="text" name="ciudad"><br>
-
-        <label>Email:</label>
-        <input type="text" name="email"><br>
-</body>
-</html>
