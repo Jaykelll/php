@@ -1,16 +1,15 @@
 <?php
 class FormPersonal {
-    
-    public $nombres = 'fabian';
-    public $apellidos = 'carvajal';
-    public $fecha_de_nacimiento = '20-07-0000';
-    public $documento = '555';
-    public $tipo_de_documento = 'cc';
-    public $telefono = '788';
-    public $direccion = 'calle 48 #86';
-    public $ciudad = 'bogota';
-    public $email = 'fabian@gmail.com';
-    
+    public $nombres;
+    public $apellidos;
+    public $fecha_de_nacimiento;
+    public $documento;
+    public $tipo_de_documento;
+    public $telefono;
+    public $direccion;
+    public $ciudad;
+    public $email;
+
     public function __construct($nombres, $apellidos, $fecha_de_nacimiento, $documento, $tipo_de_documento, $telefono, $direccion, $ciudad, $email) {
         $this->nombres = $nombres;
         $this->apellidos = $apellidos;
@@ -38,4 +37,5 @@ class FormPersonal {
         return $formattedInfo;
     }
 }
+?>
 
